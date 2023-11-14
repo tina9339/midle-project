@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #C9D4E6;
+    background-color: #e6e4c9;
     margin: 0px;
 }
 
@@ -41,7 +41,7 @@ nav a:hover {
     background-color: #BCE48B;
     float: left;
     width: 75%;
-    border: dotted;
+    border: solid;
     border-color: #54869f;
     padding: 0px;
 
@@ -74,7 +74,7 @@ aside {
 
     float: right;
     width: 25%;
-    border: dotted;
+    border: solid;
     border-color: #54869f;
     padding: 0px;
 
