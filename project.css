@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #C9D4E6;
+    margin: 0px;
+}
+
+header {
+    background-color: #fef4b1;
+    color: #216584;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+nav {
+    background-color: #e6e67bc4;
+    font-family: Arial;
+    text-align: center;
+
+
+
+}
+
+nav a {
+    padding: 14px 15px;
+    display: inline-block;
+
+}
+
+nav a:hover {
+    background-color: #ecdba2;
+    color: white;
+}
+
+.produce {
+    height: 800px;
+    background-color: #BCE48B;
+    float: left;
+    width: 75%;
+    border: dotted;
+    border-color: #54869f;
+    padding: 0px;
+
+
+}
+
+h2 {
+    background-color: #F3F9D2;
+    font-family: 'Edu TAS Beginner', cursive;
+    margin: 0px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(37, 84, 156);
+
+}
+
+p {
+
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(37, 84, 156);
+}
+
+aside {
+    height: 800px;
+    background-color: #BCE48B;
+    font-family: 'Courier New', Courier, monospace;
+
+    float: right;
+    width: 25%;
+    border: dotted;
+    border-color: #54869f;
+    padding: 0px;
+
+}
+
+footer {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #bec78a;
+}
+
+@media screen and (max-width:800px) {
+
+    article,
+    aside {
+        float: none;
+        width: 100%;
+    }
+
+    .card {
+        padding: 10px;
+        margin: 15px 0px;
+
+    }
+
+    img {
+        max-width: 100%;
+        height: 90%;
+    }
+}
